@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box
+}
+
+.iphone {
+    position: relative;
+    width: 333px;
+    height: 688px;
+    /*background-image: url('../images/iphone.jpg');*/
+    background-size: 133%;
+    background-position-x: -48px;
+    background-position-y: -19px;
+    background-repeat: no-repeat;
+    border: 2.5px solid #6B151F;
+    border-radius: 52px;
+}
+
+.iphone2 {
+    position: absolute;
+    left: 15px;
+    top: 143px;
+    width: 320px;
+    height: 678px;
+    background: -webkit-linear-gradient(#A51426, #6B151F);
+    background: -o-linear-gradient(#A51426, #6B151F);
+    background: -moz-linear-gradient(#A51426, #6B151F);
+    background: linear-gradient(#A51426, #6B151F);
+    border-radius: 45px;
+}
+
+.screen {
+    position: absolute;
+    left: 31px;
+    top: 223px;
+    width: 290px;
+    height: 520px;
+    background: -webkit-linear-gradient(white, #B4B5B5);
+    background: -o-linear-gradient(white, #B4B5B5);
+    background: -moz-linear-gradient(white, #B4B5B5);
+    background: linear-gradient(white, #B4B5B5);
+}
+
+.lens {
+    position: absolute;
+    left: 118px;
+    top: 179px;
+    width: 11px;
+    height: 11px;
+    background: #333;
+    border-radius: 45px;
+}
+
+.blueeye {
+    position: absolute;
+    left: 122px;
+    top: 181px;
+    width: 4px;
+    height: 4px;
+    background: #2DA7E0;
+    border-radius: 45px;
+}
+
+.voice {
+    position: absolute;
+    left: 140px;
+    top: 181px;
+    width: 70px;
+    height: 4px;
+    background: #F4B3BB;
+    border-radius: 45px;
+}
+
+.home1 {
+    position: absolute;
+    left: 150px;
+    top: 750px;
+    width: 53px;
+    height: 53px;
+    background: #E57683;
+    border-radius: 45px;
+}
+
+.home2 {
+    position: absolute;
+    left: 151px;
+    top: 751px;
+    width: 50px;
+    height: 50px;
+    background: #751924;
+    border-radius: 45px;
+}
+
+.botton1 {
+    position: absolute;
+    left: 6px;
+    top: 220px;
+    width: 8px;
+    height: 35px;
+    background: #751924;
+    border-radius: 2px;
+}
+
+.botton2 {
+    position: absolute;
+    left: 6px;
+    top: 280px;
+    width: 8px;
+    height: 60px;
+    background: #751924;
+    border-radius: 2px;
+}
+
+.botton3 {
+    position: absolute;
+    left: 6px;
+    top: 350px;
+    width: 8px;
+    height: 60px;
+    background: #751924;
+    border-radius: 2px;
+}
