@@ -1,0 +1,14 @@
+body {
+    background-color: #DBD7CC;
+    color: #fff;
+    background: url(../images/0001.jpg) no-repeat;
+    backgrounf-position: center;
+    background-size: cover;
+}
+
+.fix_top {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    background-color: #473
+}
