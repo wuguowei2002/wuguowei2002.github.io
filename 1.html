@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>City Population</title>
+    <script>
+        function getData(){
+            let name=document.getElementById("name").value;
+            //使用AJAX/XHR技術發送連線
+            let req=new XMLHttpRequest();
+            req.open("get","http://localhost:8080/city.php?name="+name);//準備連線資訊
+            //註冊load事件,連線完成後觸發
+            req.addEventListener("load",function(){
+                let result=document.getElementById("result");
+                result.innerHTML=req.responseText;
+            });
+            req.send();//真正送出連線
+        }
+    </script>
+</head>
+<body>
+     <h1>City Population</h1>
+     <!-- form表單送出網頁一定會重新整理,換了一個全新的頁面
+        <form action="/city.php">
+            <input type="text" name="name"/>
+            <input type="submit" value="Search"/>
+        </form>
+      -->
+    <div>
+        <input type="text" id="name" oninput="getData()" />
+        <input type="button" value="Search" onclick="getData()"/>
+    </div>
+    <div id="result"></div>
+</body>
+</html>
